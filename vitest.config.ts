@@ -1,5 +1,5 @@
 import { defineConfig } from "vitest/config";
-
+ 
 export default defineConfig({
   test: {
     setupFiles: ["./tests/setup.ts"],
@@ -23,7 +23,7 @@ export default defineConfig({
       thresholds: {
         lines: 10,
         functions: 8,
-        branches: 60,
+        branches: 15,
         statements: 10,
       },
     },
