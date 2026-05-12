@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "tsx watch src/bot.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/bot.js",
+    "start": "node dist/src/bot.js",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
     "test": "vitest run",
@@ -50,7 +50,7 @@
     "@types/pg": "^8.11.10",
     "@typescript-eslint/eslint-plugin": "^8.14.0",
     "@typescript-eslint/parser": "^8.14.0",
-    "@vitest/coverage-v8": "^2.1.9",
+    "@vitest/coverage-v8": "^4.1.6",
     "eslint": "^9.14.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.4",
