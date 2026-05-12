@@ -1,0 +1,22 @@
+node_modules/
+dist/
+coverage/
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+google-credentials.json
+*.pem
+
+# runtime / artefacts
+*.log
+logs/
+tmp/
+reports/
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
