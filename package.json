@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "dotenv": "^17.4.2",
-    "googleapis": "^171.4.0",
+    "googleapis": "^172.0.0",
     "groq-sdk": "^1.2.0",
     "nodemailer": "^8.0.7",
     "pdfkit": "^0.18.0",
